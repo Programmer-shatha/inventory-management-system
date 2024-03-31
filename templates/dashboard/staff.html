@@ -1,0 +1,33 @@
+{% extends "partials/base.html" %}
+{% block title %} staff {% endblock  %}
+{%block content%}
+{% include "partials/topside.html" %}
+
+<div class="row my-4">
+    <div class="col-md-12">
+        <table class="table bg-white">
+            <thead class="bg-black">
+                    <tr class="text-white">
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Phone</th>
+                    </tr>
+            </thead>
+            <tbody>
+                   {% for customer in customer %}
+                <tr>
+                    <th scope="row">
+                    <a class="btn btn-secondary btn-sm" href="{% url 'dashboard-staff-details' customer.id %}">View</a></th>
+                    <td>{{ customer.username }}</td>
+                    <td>{{ customer.email }}</td>
+                    <td>{{ customer.profile.phone }}</td>
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

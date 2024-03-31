@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: deena@gamil.com
+Date: Sat, 30 Mar 2024 02:02:41 -0000
+Message-ID: <171176416140.10140.16566105340246723267@DESKTOP-BS2SGV7>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/password_reset_confirm/Ng/c4orch-38d4bccac9bb115344e5fc5027cc81f0/
+
+Your username, in case you’ve forgotten: deena
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------
